@@ -1,0 +1,100 @@
+:root {
+  --instagram-color: #e04a8e;
+  --whatsapp-color: #00e676;
+  --youtube-color: #fe2d3b;
+  --twitter-color: #5fb8fe;
+  --twitch-color: #5b42ba;
+}
+
+.container {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.col {
+  flex: 1 0 0%;
+  width: 100%;
+  max-width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.multiline > div:first-child {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.multiline > div:last-child {
+  font-size: 12px;
+}
+
+.social-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.social-button,
+.social-button:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
+.instagram-button,
+.whatsapp-button,
+.youtube-button,
+.twitter-button,
+.twitch-button {
+  fill: #fff;
+}
+
+.instagram-button,
+.instagram-button:hover {
+  background: var(--instagram-color);
+}
+
+.whatsapp-button,
+.whatsapp-button:hover {
+  background: var(--whatsapp-color);
+}
+
+.youtube-button,
+.youtube-button:hover {
+  background: var(--youtube-color);
+}
+
+.twitter-button,
+.twitter-button:hover {
+  background: var(--twitter-color);
+}
+
+.twitch-button,
+.twitch-button:hover {
+  background: var(--twitch-color);
+}
+
+.social-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.social-dark {
+  fill: #fff;
+}
+
+.social-dark,
+.social-dark:hover {
+  background: #221e1f;
+  border-color: #221e1f;
+}

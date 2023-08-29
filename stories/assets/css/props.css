@@ -1,0 +1,26 @@
+.e-button + .e-button {
+  margin-left: 10px;
+}
+
+.e-button.bootstrap-button {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.e-button.bootstrap-button:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+  background: #0044cc;
+}
+
+.e-button.bootstrap-button:active {
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.1);
+}
