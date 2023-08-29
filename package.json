@@ -1,0 +1,49 @@
+{
+  "name": "@2e32/react-button-storybook",
+  "description": "A React button storybook",
+  "keywords": [
+    "2e32",
+    "ui",
+    "frontend",
+    "component",
+    "button",
+    "react",
+    "react-component",
+    "react-button",
+    "storybook"
+  ],
+  "author": "konstantin_b",
+  "repository": "https://github.com/2e32/react-button-storybook.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "prettier:check": "prettier --check .",
+    "prettier:format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "lint:config": "eslint --print-config *.*"
+  },
+  "devDependencies": {
+    "@2e32/react-button": "https://github.com/2e32/react-button.git",
+    "@storybook/addon-essentials": "7.3.2",
+    "@storybook/addon-interactions": "7.3.2",
+    "@storybook/addon-links": "7.3.2",
+    "@storybook/blocks": "7.3.2",
+    "@storybook/react": "7.3.2",
+    "@storybook/react-vite": "7.3.2",
+    "@storybook/testing-library": "0.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.3.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vite-plugin-svgr": "^3.2.0"
+  }
+}
