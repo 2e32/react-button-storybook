@@ -25,7 +25,7 @@
     "lint:config": "eslint --print-config *.*"
   },
   "devDependencies": {
-    "@2e32/react-button": "https://github.com/2e32/react-button.git",
+    "@2e32/react-button": "^1.0.0",
     "@storybook/addon-essentials": "7.3.2",
     "@storybook/addon-interactions": "7.3.2",
     "@storybook/addon-links": "7.3.2",
